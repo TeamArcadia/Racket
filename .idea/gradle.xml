@@ -21,10 +21,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/build-logic" />
             <option value="$PROJECT_DIR$/modules" />
-            <option value="$PROJECT_DIR$/modules/racket-client" />
-            <option value="$PROJECT_DIR$/modules/racket-packet" />
-            <option value="$PROJECT_DIR$/modules/racket-server" />
-            <option value="$PROJECT_DIR$/modules/racket-utils" />
+            <option value="$PROJECT_DIR$/modules/client" />
+            <option value="$PROJECT_DIR$/modules/core" />
+            <option value="$PROJECT_DIR$/modules/example" />
+            <option value="$PROJECT_DIR$/modules/server" />
           </set>
         </option>
       </GradleProjectSettings>

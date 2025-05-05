@@ -8,14 +8,14 @@ class DependencyHandlerExtensions : Plugin<Project> {
 	override fun apply(target: Project) {}
 }
 
-fun DependencyHandler.runtimeOnlyModule(platform: String, module: String): Dependency? =
-	add("runtimeOnly", project(":modules:${platform}-$module"))
+fun DependencyHandler.runtimeOnlyModule(module: String): Dependency? =
+	add("runtimeOnly", project(":modules:$module"))
 
-fun DependencyHandler.implementationModule(platform: String, module: String): Dependency? =
-	add("implementation", project(":modules:${platform}-$module"))
+fun DependencyHandler.implementationModule(module: String): Dependency? =
+	add("implementation", project(":modules:$module"))
 
-fun DependencyHandler.apiModule(platform: String, module: String): Dependency? =
-	add("api", project(":modules:${platform}-$module"))
+fun DependencyHandler.apiModule(module: String): Dependency? =
+	add("api", project(":modules:$module"))
 
-fun DependencyHandler.testImplementationModule(platform: String, module: String): Dependency? =
-	add("testImplementation", project(":modules:${platform}-$module"))
+fun DependencyHandler.testImplementationModule(module: String): Dependency? =
+	add("testImplementation", project(":modules:$module"))
