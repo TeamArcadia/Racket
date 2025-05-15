@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/modules" />
             <option value="$PROJECT_DIR$/modules/client" />
             <option value="$PROJECT_DIR$/modules/core" />
+            <option value="$PROJECT_DIR$/modules/dist" />
             <option value="$PROJECT_DIR$/modules/example" />
             <option value="$PROJECT_DIR$/modules/server" />
           </set>
